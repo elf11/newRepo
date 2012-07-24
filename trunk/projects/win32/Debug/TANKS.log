@@ -1,0 +1,17 @@
+﻿Build started 6/27/2012 4:19:29 PM.
+     1>Project "C:\Users\devsys\Desktop\TANKS_INT\trunk\projects\win32\TANKS.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Touching ".\Debug\TANKS.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\platforms\win32\include /I..\..\platforms\win32\include\curl /I..\..\platforms\win32\libjpeg /I..\..\platforms\win32\include\zlib /I..\..\platforms\win32\include\libpng /I.\ /I..\..\ /I..\..\src\SDK\Math /I..\..\src\SDK /ZI /nologo /W0 /WX- /Od /Oy- /D HI_RES_PP /D OS_WINDOWS=1 /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\SDK\Graphics\Texture2D.cpp ..\..\src\SDK\ModelManager.cpp /MP9 
+         Texture2D.cpp
+         ModelManager.cpp
+     1>c:\users\devsys\desktop\tanks_int\trunk\src\sdk\graphics\texture2d.cpp(4): fatal error C1083: Cannot open include file: 'FileMgr.h': No such file or directory
+     1>c:\users\devsys\desktop\tanks_int\trunk\src\sdk\modelmanager.cpp(31): error C4716: 'ModelManager::GetMesh' : must return a value
+     1>Done Building Project "C:\Users\devsys\Desktop\TANKS_INT\trunk\projects\win32\TANKS.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.73

@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8956d561-22eb-4f36-986c-9721b9a84fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bcea7708-eb7e-4460-97bd-a19af30fd899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Autogen">
+      <UniqueIdentifier>{94711c0d-c0f9-47d2-bc0f-27ab8a76df16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{de523e90-23c5-4387-b3b9-1aa7cf768cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platforms">
+      <UniqueIdentifier>{407f4b25-ab96-4ab4-bbcc-b655821f424d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platforms\win32">
+      <UniqueIdentifier>{351aa5bb-0345-46d9-9897-9165e58823a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platforms\win32\include">
+      <UniqueIdentifier>{cee9f750-3620-4498-88b6-6c840267e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDK">
+      <UniqueIdentifier>{d4c58059-0c3a-4ccc-af1f-8cd088a9ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDK\Math">
+      <UniqueIdentifier>{4dc956cd-d371-4e74-8e15-3e108cd5d52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDK\utils">
+      <UniqueIdentifier>{ccc31740-eb07-4511-9013-b0716e720d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDK\Graphics">
+      <UniqueIdentifier>{89485c75-4ccc-4ad6-aaee-7f9bd9a3d785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenGLES10.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenGLES20.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\platform.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\curl.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlbuild.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlrules.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlver.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\easy.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\mprintf.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\multi.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\stdcheaders.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\typecheck-gcc.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\curl\types.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\EGL\egl.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\EGL\eglext.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\EGL\eglplatform.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES\egl.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES\egltypes.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES\gl.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES\glext.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES\glplatform.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2ext.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2extimg.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2platform.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\KHR\khrplatform.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\cderror.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\cdjpeg.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jconfig.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jdct.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jerror.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jinclude.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jmemsys.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jmorecfg.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jpegint.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jpeglib.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jversion.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\transupp.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libpng\png.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libpng\pngconf.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\libpng\pngpriv.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\al.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\alc.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\efx-creative.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\EFX-Util.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\efx.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\xram.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\crc32.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\deflate.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\gzguts.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inffast.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inffixed.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inflate.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inftrees.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\trees.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zconf.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zlib.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zutil.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\debug.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\dirent.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\GLee.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\openal.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Color.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\VertexDeclarations.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\BoundingBox.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\BoundingFrustum.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\BoundingSphere.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\CRSpline.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\MathOperators.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\Matrix.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\MatrixStack.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\Plane.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\Quaternion.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\RectangleInt.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\RMath.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\Vector2.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\Vector3.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Math\stdinc.h">
+      <Filter>src\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Renderer.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Camera.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\BaseObject.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Cube.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\GameOptions.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="TerainMap.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\ModelManager.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\DataBuffer.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\RArray.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\Ray.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\RString.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\Security.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\tinystr.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\tinyxml.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\WString.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\utils\misc.h">
+      <Filter>src\SDK\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Graphics\Model.h">
+      <Filter>src\SDK\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\File.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileDisk.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileMgr.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\FilePak.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileSearch.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileUtils.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\platforms\win32\include\fs\Pak.h">
+      <Filter>platforms\win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SDK\Graphics\Texture2D.h">
+      <Filter>src\SDK\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TANKS.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TANKS.ico">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\platforms\win32\main.cpp">
+      <Filter>platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\platform.cpp">
+      <Filter>platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\GLee.c">
+      <Filter>platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\zlib\zutil.c">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tut1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Color.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\BoundingBox.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\BoundingFrustum.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\CRSpline.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\Matrix.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\MatrixStack.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\Plane.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\Quaternion.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\RMath.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\Vector2.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Math\Vector3.cpp">
+      <Filter>src\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Renderer.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Camera.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\BaseObject.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Cube.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\GameOptions.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="TerainMap.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\ModelManager.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\DataBuffer.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\RString.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\Security.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\tinystr.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\tinyxml.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\tinyxmlerror.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\tinyxmlparser.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\WString.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\utils\misc.cpp">
+      <Filter>src\SDK\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Graphics\Model.cpp">
+      <Filter>src\SDK\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\File.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileDisk.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileMgr.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\FilePak.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileSearch.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileUtils.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platforms\win32\include\fs\Pak.cpp">
+      <Filter>platforms\win32\include</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>src\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDK\Graphics\Texture2D.cpp">
+      <Filter>src\SDK\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\platforms\win32\include\curl\curl.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlbuild.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlrules.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\curlver.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\easy.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\mprintf.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\multi.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\stdcheaders.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="..\..\platforms\win32\include\curl\types.h" />
+    <ClInclude Include="..\..\platforms\win32\include\debug.h" />
+    <ClInclude Include="..\..\platforms\win32\include\dirent.h" />
+    <ClInclude Include="..\..\platforms\win32\include\EGL\egl.h" />
+    <ClInclude Include="..\..\platforms\win32\include\EGL\eglext.h" />
+    <ClInclude Include="..\..\platforms\win32\include\EGL\eglplatform.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\File.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileDisk.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileMgr.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\FilePak.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileSearch.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\FileUtils.h" />
+    <ClInclude Include="..\..\platforms\win32\include\fs\Pak.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLee.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2ext.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2extimg.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES2\gl2platform.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES\egl.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES\egltypes.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES\gl.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES\glext.h" />
+    <ClInclude Include="..\..\platforms\win32\include\GLES\glplatform.h" />
+    <ClInclude Include="..\..\platforms\win32\include\KHR\khrplatform.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\cderror.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\cdjpeg.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jconfig.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jdct.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jerror.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jinclude.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jmemsys.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jpegint.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jpeglib.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\jversion.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libjpeg\transupp.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libpng\png.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libpng\pngconf.h" />
+    <ClInclude Include="..\..\platforms\win32\include\libpng\pngpriv.h" />
+    <ClInclude Include="..\..\platforms\win32\include\openal.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\al.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\alc.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\efx-creative.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\EFX-Util.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\efx.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenAL\xram.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenGLES10.h" />
+    <ClInclude Include="..\..\platforms\win32\include\OpenGLES20.h" />
+    <ClInclude Include="..\..\platforms\win32\include\platform.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\crc32.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\deflate.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\gzguts.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inffast.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inffixed.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inflate.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\inftrees.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\trees.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zconf.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zlib.h" />
+    <ClInclude Include="..\..\platforms\win32\include\zlib\zutil.h" />
+    <ClInclude Include="..\..\src\SDK\BaseObject.h" />
+    <ClInclude Include="..\..\src\SDK\Camera.h" />
+    <ClInclude Include="..\..\src\SDK\Color.h" />
+    <ClInclude Include="..\..\src\SDK\Cube.h" />
+    <ClInclude Include="..\..\src\SDK\GameOptions.h" />
+    <ClInclude Include="..\..\src\SDK\Graphics\Model.h" />
+    <ClInclude Include="..\..\src\SDK\Graphics\Texture2D.h" />
+    <ClInclude Include="..\..\src\SDK\Math\BoundingBox.h" />
+    <ClInclude Include="..\..\src\SDK\Math\BoundingFrustum.h" />
+    <ClInclude Include="..\..\src\SDK\Math\BoundingSphere.h" />
+    <ClInclude Include="..\..\src\SDK\Math\CRSpline.h" />
+    <ClInclude Include="..\..\src\SDK\Math\MathOperators.h" />
+    <ClInclude Include="..\..\src\SDK\Math\Matrix.h" />
+    <ClInclude Include="..\..\src\SDK\Math\MatrixStack.h" />
+    <ClInclude Include="..\..\src\SDK\Math\Plane.h" />
+    <ClInclude Include="..\..\src\SDK\Math\Quaternion.h" />
+    <ClInclude Include="..\..\src\SDK\Math\RectangleInt.h" />
+    <ClInclude Include="..\..\src\SDK\Math\RMath.h" />
+    <ClInclude Include="..\..\src\SDK\Math\stdinc.h" />
+    <ClInclude Include="..\..\src\SDK\Math\Vector2.h" />
+    <ClInclude Include="..\..\src\SDK\Math\Vector3.h" />
+    <ClInclude Include="..\..\src\SDK\ModelManager.h" />
+    <ClInclude Include="..\..\src\SDK\Renderer.h" />
+    <ClInclude Include="..\..\src\SDK\utils\DataBuffer.h" />
+    <ClInclude Include="..\..\src\SDK\utils\misc.h" />
+    <ClInclude Include="..\..\src\SDK\utils\RArray.h" />
+    <ClInclude Include="..\..\src\SDK\utils\Ray.h" />
+    <ClInclude Include="..\..\src\SDK\utils\RString.h" />
+    <ClInclude Include="..\..\src\SDK\utils\Security.h" />
+    <ClInclude Include="..\..\src\SDK\utils\tinystr.h" />
+    <ClInclude Include="..\..\src\SDK\utils\tinyxml.h" />
+    <ClInclude Include="..\..\src\SDK\utils\WString.h" />
+    <ClInclude Include="..\..\src\SDK\VertexDeclarations.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TerainMap.h" />
+    <ClInclude Include="TextureManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TANKS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TANKS.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\platforms\win32\GLee.c" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\File.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileDisk.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileMgr.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\FilePak.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileSearch.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\FileUtils.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\fs\Pak.cpp" />
+    <ClCompile Include="..\..\platforms\win32\include\zlib\zutil.c" />
+    <ClCompile Include="..\..\platforms\win32\main.cpp" />
+    <ClCompile Include="..\..\platforms\win32\platform.cpp" />
+    <ClCompile Include="..\..\src\SDK\BaseObject.cpp" />
+    <ClCompile Include="..\..\src\SDK\Camera.cpp" />
+    <ClCompile Include="..\..\src\SDK\Color.cpp" />
+    <ClCompile Include="..\..\src\SDK\Cube.cpp" />
+    <ClCompile Include="..\..\src\SDK\GameOptions.cpp" />
+    <ClCompile Include="..\..\src\SDK\Graphics\Model.cpp" />
+    <ClCompile Include="..\..\src\SDK\Graphics\Texture2D.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\BoundingBox.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\BoundingFrustum.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\CRSpline.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\Matrix.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\MatrixStack.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\Plane.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\Quaternion.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\RMath.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\Vector2.cpp" />
+    <ClCompile Include="..\..\src\SDK\Math\Vector3.cpp" />
+    <ClCompile Include="..\..\src\SDK\ModelManager.cpp" />
+    <ClCompile Include="..\..\src\SDK\Renderer.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\DataBuffer.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\misc.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\RString.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\Security.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\tinystr.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\tinyxml.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\src\SDK\utils\WString.cpp" />
+    <ClCompile Include="..\..\src\tut1.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TerainMap.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectName>TANKS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\win32</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\bin\win32\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>HI_RES_PP;OS_WINDOWS=1;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\win32.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>..\..\platforms\win32\include;..\..\platforms\win32\include\curl;..\..\platforms\win32\libjpeg;..\..\platforms\win32\include\zlib;..\..\platforms\win32\include\libpng;.\;..\..\;..\..\src\SDK\Math;..\..\src\SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP9 %(AdditionalOptions)</AdditionalOptions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Lesson32.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x1009</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Lesson32.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\bin\win32\TANKS.exe</OutputFile>
+      <AdditionalDependencies>opengl32.lib;libcurl_imp.lib;fmodex_vc.lib;ws2_32.lib;winmm.lib;wldap32.lib;odbc32.lib;odbccp32.lib;zlib.lib;GLee.lib;libpng.lib;jpeg.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>OS_WINDOWS;WIN32;IS_EGLEMU;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Lesson32.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <AdditionalIncludeDirectories>..\..\src\SDK\revoWeb;..\..\src\SDK\GroundAssets;..\..\include;..\..\platforms\win32\include\curl;..\..\platforms\win32\include\libjpeg;..\..\platforms\win32\include\zlib;..\..\platforms\win32\thread;..\..\platforms\win32\include\libpng;..\..\platforms\win32\fs;..\..\platforms\win32\include;..\..\include\input;..\..\include\Screens;..\..\platforms\win32\imgc\;..\..\src\SDK\sprite;..\..\src\Screens;..\..\src\ScreenManager;..\..\src;..\..\src\SDK;..\..\src\SDK\math;..\..\src\SDK\model;..\..\src\SDK\mathfili;..\..\src\SDK\Graphics;..\..\src\SDK\Graphics\GpuProgram;..\..\src\SDK\Graphics\GpuProgram\StdShaderGpuPrograms;..\..\src\SDK\GeoTerrain;..\..\platforms\win32\include\OpenAL;..\..\src\SDK\sound;..\..\src\Cameras;..\..\src\SDK\effect;..\..\src\SDK\effect\gibs;..\..\src\SDK\effect\particles;..\..\src\SDK\serializer;..\..\src\Screens\LoadingScreens;..\..\src\SDK\Sky;..\..\src\SDK\AthmosphericScattering;..\..\platforms\win32\net;..\..\src\SDK\Water;..\..\src\SDK\Menus;..\..\src\SDK\Menus\menu_controls;..\..\src\autogen;..\..\src\Menus;..\..\src\Menus\CustomControls;..\..\src\Menus\Overlays;..\..\src\Menus\CustomGameSettings;..\..\src\SDK\utils;..\..\src\SDK\HttpCom;..\..\src\SDK\GameUpdate;..\..\src\Game;..\..\src\Game\CustomModels;..\..\src\Game\Screens;..\..\src\Game\Target;..\..\src\Game\Weapon;..\..\src\GFX;..\..\src\HUD;..\..\src\SFX;..\..\src\Game\Screens\LoadingScreens;..\..\src\Game\Network;..\..\platforms\win32\snd\fmod;..\..\src\Game\Editor;..\..\src\Game\Configs;..\..\src\Game\GameModes\CustomGameModes;..\..\src\Game\GameModes;..\..\src\Game\Achievements;..\..\platforms\win32\dummy;..\..\src\SDK\PostProcesses;..\..\src\Game\GameModes\TutorialGameModes;..\..\src\SDK\GamesDetection;..\..\src\SDK\SystemInfo;..\..\src\platforms\win32\sysinfo;..\..\src\Menus\Templates;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Lesson32.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x1009</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Lesson32.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\..\..\bin\win32\TANKS.exe</OutputFile>
+      <AdditionalDependencies>opengl32.lib;libcurl_imp.lib;fmodex_vc.lib;ws2_32.lib;winmm.lib;wldap32.lib;odbc32.lib;odbccp32.lib;zlib.lib;GLee.lib;libpng.lib;jpeg.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\platforms\win32\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
